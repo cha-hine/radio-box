@@ -1,0 +1,21 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Éditeurs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Web
+node_modules/
+web/dist/
+
+# Système
+Thumbs.db
+.DS_Store
+
+# Secrets
+secrets.h
+*.env
