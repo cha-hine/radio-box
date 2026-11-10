@@ -2,6 +2,8 @@
 
 Prototype à base de **modules tout faits**, câblés sur plaque à souder (pas encore de circuit imprimé sur mesure). Les prix sont des **estimations** (AliExpress / Amazon / revendeurs FR, fin 2026) à vérifier à l'achat.
 
+Les références réellement commandées (et les substitutions, par exemple l'écran avec lecteur microSD intégré ou le convertisseur de niveaux à la place du 74AHCT125) sont dans [ACHATS.md](ACHATS.md). Le produit final certifiable CE n'utilisera pas ces modules : voir [docs/certification-ce.md](../docs/certification-ce.md).
+
 ## Électronique
 
 | # | Composant | Référence conseillée | Qté | Prix ≈ | Notes |
