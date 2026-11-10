@@ -56,6 +56,28 @@ Gotronic n'a pas de module « charge + 5 V ≥ 2 A + lecture pendant la charge �
 | 25–29 | `perfboard 7x9`, `JST PH 2.0 kit`, `silicone wire 22AWG 26AWG`, `heat shrink kit`, `2.54mm female header` | 1 de chaque | Consommables (aussi trouvables chez Gotronic par catégorie). |
 | 12–13, 18 | Résistances 330 Ω et 100 kΩ, condensateur 1000 µF 10 V | 1 lot chacun | Kits d'assortiment. |
 
+## Option DigiKey (tout au même endroit)
+
+> ⚠️ **Livraison à La Réunion non confirmée.** Sur la page « International Shipping Rates » de DigiKey (lue le 10/11/2026), la liste des pays contient la France, la Martinique, la Guyane et Mayotte, mais **ni La Réunion ni la Guadeloupe**. Ce relevé vient d'un résumé de la page : vérifier en saisissant une adresse 974 au panier, ou en demandant au service client. Les conditions France (livraison offerte dès 75 €, 25 € en dessous, environ 3 jours, droits payés par DigiKey avec UPS) ne valent pas forcément pour les DOM.
+
+Toutes les références ci-dessous sont des pièces de marque, avec fiches techniques et déclarations RoHS : la même logique que la version certifiable CE. Prix et stocks à lire sur digikey.fr (ils varient selon le site régional).
+
+| BOM | Référence fabricant | N° DigiKey | Qté | Remarques |
+|---|---|---|---|---|
+| 1 | Espressif **ESP32-S3-DEVKITC-1-N8R8** | 1965-ESP32-S3-DEVKITC-1-N8R8-ND | 2 | Carte officielle Espressif, 8 Mo flash + 8 Mo PSRAM. La N16R8 n'est pas référencée chez DigiKey. |
+| 2 | Adafruit **3006** (MAX98357A) | à rechercher | 2 | Adafruit cite DigiKey comme revendeur ; fiche DigiKey non trouvée par recherche. |
+| 4 + 8 | Adafruit **4311** (TFT 2" ST7789 + microSD) | [fiche](https://www.digikey.fr/en/products/detail/adafruit-industries-llc/4311/10313914) | 1 | Le même écran que chez Gotronic. |
+| 5 | Adafruit **377** (encodeur 24 crans + bouton poussoir + **molette**) | 1528-2438-ND | 2 | Molette incluse. |
+| 6 | Adafruit **1119** (10 boutons tactiles 12 mm) | 1528-1119-ND | 1 | Capuchons : Adafruit 1009 (assortiment avec capuchons), disponibilité DigiKey à vérifier. |
+| 10 | Adafruit **2537** (ruban NeoPixel 60 LED, blanc) | [fiche](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/2537/9770541) | 1 | |
+| 11 | TI **SN74AHCT125N** (DIP-14) | [fiche](https://www.digikey.fr/en/products/detail/texas-instruments/SN74AHCT125N/375798) | 2 | Le décaleur de niveau prévu à l'origine. Parfois vendu via la marketplace (Rochester Electronics). |
+| 15 | Keystone **1042** (support 18650, plastique UL 94 V-0) | 36-1042-ND | 2 | Plastique ignifugé, bon point pour la CE. Câbler les deux en parallèle. |
+| 17 | Adafruit **2465** PowerBoost 1000C | 1528-1349-ND | 1 | Charge + 5 V + lecture pendant la charge, mais **1 A maximum en sortie** : alimenter l'ampli directement sur la batterie (le MAX98357A accepte 2,7 à 5,5 V, mais donne alors moins de puissance) et plafonner les LED. Recharge lente (1 A maximum, soit environ 7 h pour 7000 mAh). |
+| 3 | Visaton **FR 7 – 4 Ω** | [fiche](https://www.digikey.fr/en/products/detail/visaton-gmbh-co-kg/FR-7-4-OHM/9842311) | 1 | **66 mm, 4 Ω, 5 W nominal (10 W max), 86 dB** : exactement le haut-parleur prévu. |
+| 21 | Adafruit **4256** (inserts M3, lot de 50) | à rechercher | 1 | Disponibilité DigiKey non confirmée. |
+
+Absents ou non vérifiés chez DigiKey : interrupteur marche/arrêt, carte de protection 1S, carte microSD, filament, patins, consommables.
+
 ## Sur place (974)
 
 | BOM | Article | Qté | Remarques |
