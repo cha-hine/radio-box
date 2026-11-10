@@ -23,14 +23,16 @@ Panier rempli le 10/11/2026, chaque ligne marquée avec la référence client `r
 | 2 | Adafruit **377**, encodeur rotatif + molette | 1528-2438-ND | 3,99 € | 7,98 € |
 | 1 | Adafruit **1119**, 10 boutons tactiles 12 mm | 1528-1119-ND | 2,22 € | 2,22 € |
 | 1 | ZF **KRE2ANA1BBD**, interrupteur à bascule | CH932-ND | 2,25 € | 2,25 € |
-| 1 | Adafruit **4689**, ruban NeoPixel **RGBW** 60 LED, 1 m | 1528-4689-ND | 26,59 € | 26,59 € |
+| 1 | Seeed **104990303**, ruban de LED adressables RGB **60 LED, 1 m** (WS2813B, compatible WS2812) | 1597-1486-ND | 7,35 € | 7,35 € |
 | 2 | TI **SN74AHCT125N**, décaleur de niveau (DIP-14) | 296-4655-5-ND | 0,84 € | 1,68 € |
 | 2 | Keystone **1042**, support 18650 (UL 94 V-0) | 36-1042-ND | 6,11 € | 12,22 € |
 | 10 | Stackpole CF14JT330R, résistance 330 Ω | CF14JT330RCT-ND | 0,024 € | 0,24 € |
 | 10 | Stackpole CF14JT100K, résistance 100 kΩ | CF14JT100KCT-ND | 0,024 € | 0,24 € |
 | 2 | Nichicon UVR1A102MPD, condensateur 1000 µF 10 V | 493-1025-ND | 0,55 € | 1,10 € |
 | 1 | **Charge + 5 V** : voir ci-dessous | | | ≈ 15 € |
-| | | | **Total** | **≈ 122 € HT** |
+| | | | **Total** | **≈ 103 € HT** |
+
+> Le ruban Adafruit 4689 (RGBW, 26,59 €), jugé trop cher, a été remplacé dans le panier par le Seeed 104990303 (29 en stock le 10/11). Autre option moins chère encore en stock : DFRobot FIT0613, 120 LED sur 2 m, WS2812, 10,56 €.
 
 **⚠️ Charge + 5 V : remplacer le PowerBoost.** L'Adafruit 2465 PowerBoost 1000C (1528-1349-ND, 17,71 €), encore dans le panier, est passé en « articles différés » (réassort annoncé le 21/01/2027). Décision : le remplacer par la paire suivante, en stock et plus puissante :
 
@@ -41,7 +43,6 @@ Panier rempli le 10/11/2026, chaque ligne marquée avec la référence client `r
 
 Le Pololu est un **produit marketplace**, expédié par Pololu : des frais de port séparés sont possibles, et la livraison à La Réunion est à vérifier au panier. Ses 3,5 A suffisent pour l'ampli, les LED et le Wi-Fi en même temps, contre 1 A pour le PowerBoost.
 
-> Le panier DigiKey contient aussi un clavier Raspberry Pi (2648-SC0197-ND, 15,09 €) qui n'appartient pas au projet.
 > La TVA affichée au panier est celle de la métropole (20 %). Pour La Réunion, regarder ce que donne l'adresse 974 au paiement.
 
 ### 2. Accu-Run (La Réunion) — batteries
@@ -85,7 +86,7 @@ Le Pololu est un **produit marketplace**, expédié par Pololu : des frais de po
 | 6 | Boutons 12 mm | Adafruit 1119 2,22 · 349 | 2,15 · 6 | Assortiment 25 BP 7,90 | **DigiKey** |
 | 6b | Capuchons de boutons | non trouvé | Adafruit 1009 5,12 · 13 | inclus dans l'assortiment | optionnel |
 | 7 | Interrupteur marche/arrêt | ZF KRE2ANA1BBD 2,25 · 4 722 | non relevé | DS12LR 2,15 | **DigiKey** |
-| 10 | Ruban de LED 60 LED/m | Adafruit 2537 RGB : **rupture** · **4689 RGBW 1 m 26,59 · 32** | 2846 RGBW 23,18 · 62 | WS2812 2 m 19,60 · en stock | **DigiKey 4689** (RGBW à déclarer dans le code) |
+| 10 | Ruban de LED 60 LED/m | **Seeed 104990303 1 m 7,35 · 29** · DFRobot FIT0613 2 m 10,56 · 77 · Adafruit 4689 RGBW 26,59 · 32 | 2846 RGBW 23,18 · 62 | WS2812 2 m 19,60 · en stock | **DigiKey Seeed 104990303** |
 | 11 | Décaleur de niveau | SN74AHCT125N 0,84 · 497 | 0,843 · 2 858 | absent (KY051 4,80) | **DigiKey** |
 | 17 | Charge + 5 V | PowerBoost 2465 : **différé (21/01/2027)** · **6091 + U3V40F5 : 15,00** | PowerBoost 17,16 · 11 | absent | **DigiKey 6091 + U3V40F5** |
 | 15 | Support 18650 (×2) | Keystone 1042 6,11 | 5,25 · 17 599 | BH18650-1 1,80 (non ignifugé) | **DigiKey** |
@@ -101,7 +102,7 @@ Le Pololu est un **produit marketplace**, expédié par Pololu : des frais de po
 
 | | DigiKey | Mouser | Gotronic |
 |---|---|---|---|
-| Total | **≈ 122 € HT** | ≈ 131 € | ≈ 96 € TTC, mais sans haut-parleur 4 Ω ni charge/5 V correcte |
+| Total | **≈ 103 € HT** | ≈ 131 € | ≈ 96 € TTC, mais sans haut-parleur 4 Ω ni charge/5 V correcte |
 | Ce qui manque | Inserts | Haut-parleur sur commande ; protection 1S | Haut-parleur 4 Ω, charge + 5 V ≥ 2 A, décaleur 74AHCT125 |
 | Livraison à La Réunion | ✅ confirmée, express | ❓ à vérifier | ✅ Colissimo Outre-Mer, 5 à 7 jours |
 
