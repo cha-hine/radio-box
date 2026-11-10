@@ -4,7 +4,7 @@ Boîtier audio autonome sur batterie, connecté au Wi-Fi, qui lit des Webradios 
 
 - Vocabulaire : [GLOSSARY.md](GLOSSARY.md)
 - Décisions : [docs/adr/](docs/adr/)
-- Composants : [hardware/BOM.md](hardware/BOM.md)
+- Composants : [hardware/BOM.md](hardware/BOM.md) — liste d'achat : [hardware/ACHATS.md](hardware/ACHATS.md)
 
 ## Arborescence
 

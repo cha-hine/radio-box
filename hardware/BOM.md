@@ -24,7 +24,7 @@ Prototype à base de **modules tout faits**, câblés sur plaque à souder (pas 
 
 | # | Composant | Référence conseillée | Qté | Prix ≈ | Notes |
 |---|---|---|---|---|---|
-| 14 | Cellules | **18650 3500 mAh** authentiques (Samsung 35E, LG MJ1…), **même modèle et même lot** | 2 | 12 € | En parallèle → ~7000 mAh / ~25 Wh, ~12 h d'écoute estimées. Acheter chez un revendeur sérieux (beaucoup de contrefaçons). |
+| 14 | Cellules | **18650 3500 mAh** authentiques (Samsung 35E, LG MJ1…), **même modèle et même lot** | 2 | 12 € | En parallèle → ~7000 mAh / ~25 Wh, ~12 h d'écoute estimées. **Achetées sur place à La Réunion** (pas d'envoi postal de batteries au lithium seules). |
 | 15 | Support ou pack | Support 2×18650 en parallèle, ou pack soudé par points | 1 | 2 € | Ne jamais souder directement au fer sur une cellule. |
 | 16 | Protection batterie | Carte de protection **1S** (DW01 + 8205A) | 1 | 1 € | Surcharge, décharge profonde, court-circuit. |
 | 17 | Charge + 5 V | Module « power bank » **IP5306 USB-C** (de préférence version I2C) | 1 | 3 € | Charge jusqu'à 2,1 A (~4 h pour une recharge complète), sortie 5 V jusqu'à 2,4 A, lecture pendant la charge. ⚠️ L'IP5306 se coupe tout seul si la consommation est trop faible : la version I2C permet de désactiver ce comportement. |
