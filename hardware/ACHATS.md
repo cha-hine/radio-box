@@ -10,6 +10,8 @@ Relevé du 10/11/2026 dans le navigateur (digikey.fr, mouser.fr, accu-run.fr), p
 
 **Une commande DigiKey (express, livraison gratuite) + 2 batteries chez Accu-Run (La Réunion) + quelques petites fournitures.**
 
+> **Mise à jour du 12/11/2026 : tu as choisi de tout regrouper en une seule commande AliExpress, sans commander chez DigiKey ni Gotronic.** Le panier AliExpress est décrit plus bas (« Panier AliExpress, version du 12/11/2026 ») ; les deux batteries restent à prendre chez Accu-Run. Le plan DigiKey ci-dessous est conservé comme plan B de qualité (pièces de marque, utile pour la certification CE).
+
 ### 1. DigiKey — commande principale
 
 Panier rempli le 10/11/2026, chaque ligne marquée avec la référence client `radio-box`. Prix HT, quantité 1.
@@ -67,26 +69,84 @@ Le Pololu est un **produit marketplace**, expédié par Pololu : des frais de po
 | Filament PETG blanc + transparent | Gotronic (24,40 € la bobine) ou boutique Bambu Lab | |
 | Capuchons pour boutons 12 mm (optionnel) | Mouser (Adafruit 1009, 5,12 €) ou impression 3D | |
 
-#### Panier AliExpress « Marque+ » (rempli le 12/11/2026)
+#### Panier AliExpress (version du 12/11/2026, remplace la première)
 
-Panier invité (sans compte) dans Chrome, pays de livraison réglé sur la France métropolitaine : **la livraison à La Réunion et ses frais restent à vérifier** une fois connecté avec l'adresse 974. Tous les articles portent le badge Marque+.
+Panier invité dans Chrome, pays de livraison **France métropolitaine** : la livraison à La Réunion et ses frais restent à vérifier avec ton adresse 974. Il contient **20 lignes** : sous-total **44,17 €** + livraison **11,19 €** = **55,36 €**.
 
-| Qté | Article | Vendeur | Prix affiché | Prix sans l'offre nouveau client |
+| Qté | Article | Vendeur | Prix du panier | Prix « normal » | Marque+ |
+|---|---|---|---|---|---|
+| 2 | Carte ESP32-S3 mini N16R8 (16 Mo flash, 8 Mo PSRAM, 44 broches) | Boutique Keyestudio | 16,90 € (+ 5,53 € de port) | 16,90 € | oui |
+| 1 | Ampli I2S MAX98357 (EstarDyn) | EstarDyn | 1,01 € | 9,60 € | oui |
+| 1 | Écran 2,0" ST7789V 240×320 SPI (EstarDyn), sans lecteur microSD | EstarDyn | 1,01 € | 17,36 € | oui |
+| 3 | Modules lecteur microSD SPI | Shop1105399116 | 1,01 € | 18,63 € | non |
+| 5 | Encodeurs EC11 avec bouton poussoir | DQLZV | 1,01 € | 5,78 € | oui |
+| 6 | Boutons poussoirs de panneau 16 mm, noirs | DQLZV | 1,01 € | 5,62 € | oui |
+| 1 m | Ruban WS2812B 60 LED/m, IP30 | Super LED Store | 1,01 € | 11,90 € | oui |
+| 2 | Modules charge/décharge IP5306 (5 V, 2 A) | Your Cee | 1,26 € (+ 5,66 € de port) | 1,64 € | non |
+| 5 | Supports de batterie 18650 simples, avec fils | Shenzhen BaoXin | 1,01 € | 6,48 € | non |
+| 10 | Circuits SN74HCT125N (DIP-14) | New IC Store | 1,01 € (+ 4,02 € de port) | 1,87 € | non |
+| 300 | Kit de résistances 1/4 W, 30 valeurs | Venteny | 1,01 € | 15,34 € | non |
+| 20 | Condensateurs 1000 µF 10 V | Hong flagcore | 6,28 € | 6,28 € | non |
+| 50 | Inserts laiton M3 × L5 × OD5 | EDGAR GARY | 6,94 € | 6,94 € | oui |
+| 55 | Vis M3 × 8 inox DIN912 | EN XIXIAN | 6,67 € | 6,67 € | oui |
+| 55 | Vis M3 × 10 inox DIN912 | EN XIXIAN | 6,12 € | 6,12 € | oui |
+| 10 paires | Câbles JST-PH 2 broches 15 cm | CHANZON | 1,01 € | 9,51 € | oui |
+| 172 | Kit de gaine thermorétractable 2:1 | CHANZON | 1,00 € (+ 7,29 € de port) | 11,50 € | oui |
+| 20 | Plaques à souder double face | CHANZON | 2,87 € | 15,88 € | oui |
+| 20 | Barrettes 40 broches 2,54 mm, mâles et femelles | CHANZON | 1,13 € | 13,40 € | oui |
+| 24 | Patins ronds autocollants Ø 20 mm | Unique House | 1,01 € | 4,10 € | non |
+
+> ⚠️ **Les prix à 1,01 € sont des offres « nouveau client », limitées à 1 lot par acheteur et réservées aux premiers achats d'un compte.** Avec un compte qui a déjà acheté, la même commande monte à **environ 200 €** (colonne « prix normal », port compris).
+
+**Introuvable ou écarté sur AliExpress :**
+- **Haut-parleur** : seulement des modèles de 3 W ou moins, trop petits pour être entendus à 3 m. Le Visaton FR 7 (DigiKey/Mouser) ou le 77 mm 5 W de Gotronic (8 Ω) restent la référence.
+- **Interrupteur marche/arrêt** : les interrupteurs à glissière Marque+ sont donnés pour 0,5 A, trop peu. Il faudra un interrupteur à bascule de 3 A ou plus, acheté ailleurs.
+- **Fil silicone 22/26 AWG** : aucun résultat exploitable.
+- **Filament PETG** : l'eSUN officiel (14,27 €) a 36,34 € de port.
+- **Carte microSD** : achète-la sur place ; les cartes AliExpress sont souvent contrefaites.
+- **Bouton de molette** : à imprimer en 3D.
+- **Batteries 18650** : pas d'expédition de batteries lithium seules par la poste, donc Accu-Run (La Réunion).
+
+**Ce que change ce panier sur le montage (voir [COMPATIBILITE.md](COMPATIBILITE.md)) :**
+- **Écran sans microSD** : le lecteur microSD devient un module séparé, relié au même bus SPI avec sa propre broche CS.
+- **Charge et 5 V par un IP5306** (2,1 A en charge, 3,5 A en sortie) à la place de la paire Adafruit 6091 + Pololu : il supprime la minuterie de charge de 6 h, mais il s'éteint tout seul si la consommation tombe sous environ 45 mA pendant une trentaine de secondes. Je n'ai pas pu vérifier que sa prise est du type USB-C.
+- **Boutons de panneau de 16 mm** à la place de boutons 12 mm : les trous de la façade sont à adapter.
+- **Pas d'ESP32-S3 Olimex ni de DevKitC-1 officielle** : une carte compatible N16R8, dont le brochage est à vérifier à la réception (les GPIO 35 à 37 restent réservés à la PSRAM).
+
+## Comparatif des plateformes — AliExpress, DigiKey, Mouser, Gotronic
+
+Même liste de pièces, prix du 12/11/2026. **AliExpress** : prix du panier (offre « nouveau client ») puis, entre parenthèses, le prix normal. **DigiKey** : HT. **Mouser** : prix affichés sur mouser.fr. **Gotronic** : TTC. Les cases « — » signalent une pièce absente ou non relevée.
+
+| Pièce (quantité) | AliExpress | DigiKey | Mouser | Gotronic |
 |---|---|---|---|---|
-| 50 | Inserts laiton M3 × L5 × OD5 | EDGAR GARY Store | 6,94 € | 6,94 € |
-| 55 | Vis M3 × 8 inox, tête cylindrique DIN912 | EN XIXIAN Store | 6,67 € | 6,67 € |
-| 55 | Vis M3 × 10 inox, tête cylindrique DIN912 | EN XIXIAN Store | 6,12 € | 6,12 € |
-| 10 paires | Câbles JST-PH 2.0 2 broches, 22 AWG, 15 cm, mâle-femelle | CHANZON | 1,01 € | 9,51 € |
-| 172 | Kit gaine thermorétractable 2:1, 6 couleurs | CHANZON | 1,00 € + 7,29 € de port | 11,50 € + 7,29 € |
-| 20 | Kit plaques à souder double face (2×8, 3×7, 4×6, 5×7 cm) | CHANZON | 2,87 € | 15,88 € |
-| 20 | Barrettes 40 broches 2,54 mm (10 mâles + 10 femelles) | CHANZON | 1,13 € | 13,40 € |
-| | | **Total** | **≈ 33 €** | **≈ 77 €** |
+| Carte ESP32-S3 avec PSRAM (×2) | 16,90 (16,90) | 16,36 (Olimex, N8R8) | 22,78 (DevKitC-1 N16R8) | 19,80 (Olimex, en rupture) |
+| Ampli I2S MAX98357 (×1) | 1,01 (9,60) | 5,28 | 5,12 | 6,50 |
+| Écran 2" ST7789 (×1) | 1,01 (17,36), sans microSD | 17,71, avec microSD | 17,03, avec microSD | 24,95, avec microSD |
+| Module microSD (×1, si l'écran n'en a pas) | 1,01 (18,63) pour 3 | inclus dans l'écran | inclus dans l'écran | inclus dans l'écran |
+| Encodeur rotatif (×2) | 1,01 (5,78) pour 5 | 7,98 (avec molette) | 7,74 (avec molette) | 5,00 (sans molette) |
+| Boutons (×4) | 1,01 (5,62) pour 6, panneau 16 mm | 2,22 (10, tactiles 12 mm) | 2,15 (10, tactiles 12 mm) | 7,90 (25) |
+| Interrupteur marche/arrêt | — (écarté, 0,5 A) | 2,25 | — | 2,15 |
+| Ruban LED 60/m, 1 m | 1,01 (11,90) | 7,35 | 23,18 (RGBW) | 19,60 (2 m) |
+| Décaleur de niveau (×2) | 1,01 (1,87) pour 10 | 1,68 | 1,69 | 4,80 |
+| Charge + 5 V | 1,26 (1,64) pour 2 IP5306 | 15,00 (6091 + U3V40F5) | 17,16 (PowerBoost, 1 A) | — |
+| Supports de batterie 18650 (×2) | 1,01 (6,48) pour 5 | 12,22 (ignifugés) | 10,50 | 3,60 |
+| Résistances + condensateur | 7,29 (21,62) | 1,58 | — | — |
+| Inserts M3 (×20) | 6,94 (6,94) pour 50 | — | 4,52 | — |
+| Vis M3 | 12,79 (12,79) pour 110 | — | — | — |
+| Câbles JST-PH | 1,01 (9,51) pour 10 paires | — | — | — |
+| Gaine thermorétractable | 1,00 (11,50) + 7,29 de port | — | — | — |
+| Plaques à souder | 2,87 (15,88) pour 20 | — | — | — |
+| Barrettes 2,54 mm | 1,13 (13,40) | — | — | — |
+| Patins | 1,01 (4,10) pour 24 | ≈ 16 (144 minimum) | ≈ 14 (144 minimum) | — |
+| Haut-parleur 4 Ω 5 W 66 mm | — (introuvable) | 7,63 | 8,81 (sur commande) | 6,80 (8 Ω) |
+| **Total des lignes ci-dessus** | **≈ 55 € (≈ 200 € sans offre nouveau client)**, port compris | **≈ 103 € HT pour l'électronique** | **≈ 131 €** | **≈ 96 € TTC, incomplet** |
 
-- Les quatre articles CHANZON sont à un prix « nouveau client » : il ne vaut que pour un premier achat sur un compte neuf, et le panier ne les sélectionne pas par défaut (sous-total affiché : 19,73 € pour les 3 autres).
-- Aucun produit Marque+ pertinent trouvé pour : fil silicone 22/26 AWG, patins adhésifs, carte microSD de marque.
-
-
----
+**Ce que les chiffres cachent :**
+- **AliExpress** n'est avantageux que si ton compte peut profiter de l'offre « nouveau client ». Sans elle, la même commande coûte environ 200 €. Il est aussi le seul à ne pas avoir de haut-parleur correct, ni d'interrupteur, et ses délais sont de 2 à 4 semaines (livraison estimée fin novembre à début décembre en France métropolitaine).
+- **DigiKey** couvre l'électronique avec des pièces de marque, traçables, en express. C'est la seule base qui prépare vraiment la certification CE.
+- **Mouser** revient à peu près au même prix, mais il n'a pas confirmé La Réunion.
+- **Gotronic** est le moins cher en apparence, mais il lui manque le haut-parleur 4 Ω, une charge de 2 A et le décaleur de niveau.
+- **Qualité des composants** : sur AliExpress, aucune puce (IP5306, 74HCT125) n'est certifiée d'origine. C'est acceptable pour un prototype, pas pour le produit certifié.
 
 ## Comparatif DigiKey / Mouser / Gotronic / Accu-Run
 
