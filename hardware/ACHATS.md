@@ -71,7 +71,7 @@ Le Pololu est un **produit marketplace**, expédié par Pololu : des frais de po
 
 #### Panier AliExpress (version du 12/11/2026, remplace la première)
 
-Panier invité dans Chrome, pays de livraison **France métropolitaine** : la livraison à La Réunion et ses frais restent à vérifier avec ton adresse 974. Il contient **20 lignes** : sous-total **44,17 €** + livraison **11,19 €** = **55,36 €**.
+Panier invité dans Chrome, pays de livraison **France métropolitaine** : la livraison à La Réunion et ses frais restent à vérifier avec ton adresse 974. Il contient **25 lignes** : sous-total **59,35 €** + livraison **20,62 €** = **79,97 €**.
 
 | Qté | Article | Vendeur | Prix du panier | Prix « normal » | Marque+ |
 |---|---|---|---|---|---|
@@ -95,16 +95,20 @@ Panier invité dans Chrome, pays de livraison **France métropolitaine** : la li
 | 20 | Plaques à souder double face | CHANZON | 2,87 € | 15,88 € | oui |
 | 20 | Barrettes 40 broches 2,54 mm, mâles et femelles | CHANZON | 1,13 € | 13,40 € | oui |
 | 24 | Patins ronds autocollants Ø 20 mm | Unique House | 1,01 € | 4,10 € | non |
+| 10 | Interrupteurs à bascule MTS-102 (6 A 125 V, 3 broches), rouges | Shop1104461129 | 8,16 € | 8,16 € | Choice |
+| 1 | Carte microSD SanDisk Ultra 32 Go | AE-3CBrand Store | 13,88 € | 13,88 € | Choice |
+| 10 | Capuchons de molette noirs, axe « prune » 6 mm | Lucky JD Store | 0,96 € (+ 2,71 € de port) | 0,96 € | Choice |
+| 10 m | Fil silicone UL3239 22 AWG, rouge | SKYGOD | 3,03 € (+ 3,36 € de port) | 3,03 € | Choice |
+| 10 m | Fil silicone UL3239 22 AWG, noir | SKYGOD | 3,03 € | 3,03 € | Choice |
 
-> ⚠️ **Les prix à 1,01 € sont des offres « nouveau client », limitées à 1 lot par acheteur et réservées aux premiers achats d'un compte.** Avec un compte qui a déjà acheté, la même commande monte à **environ 200 €** (colonne « prix normal », port compris).
+> ⚠️ **Les prix à 1,01 € sont des offres « nouveau client », limitées à 1 lot par acheteur et réservées aux premiers achats d'un compte.** Avec un compte qui a déjà acheté, la même commande monte à **environ 240 €** (colonne « prix normal », port compris).
+
+**Ajouts « Choice » du 12/11/2026 :** interrupteur à bascule 6 A (les modèles Marque+ trouvés étaient limités à 0,5 A), carte microSD SanDisk, capuchons de molette et fil silicone. Les cartes microSD vendues sur AliExpress sont souvent contrefaites, même sous le badge Choice : vérifie-la avec H2testw ou F3 à la réception.
 
 **Introuvable ou écarté sur AliExpress :**
 - **Haut-parleur** : seulement des modèles de 3 W ou moins, trop petits pour être entendus à 3 m. Le Visaton FR 7 (DigiKey/Mouser) ou le 77 mm 5 W de Gotronic (8 Ω) restent la référence.
-- **Interrupteur marche/arrêt** : les interrupteurs à glissière Marque+ sont donnés pour 0,5 A, trop peu. Il faudra un interrupteur à bascule de 3 A ou plus, acheté ailleurs.
-- **Fil silicone 22/26 AWG** : aucun résultat exploitable.
-- **Filament PETG** : l'eSUN officiel (14,27 €) a 36,34 € de port.
-- **Carte microSD** : achète-la sur place ; les cartes AliExpress sont souvent contrefaites.
-- **Bouton de molette** : à imprimer en 3D.
+- **Filament PETG** : l'eSUN officiel (14,27 €) a 36,34 € de port, et un PETG 1 kg Choice (10,52 €) 32,91 € : une bobine revient à plus de 40 €, contre 24,40 € chez Gotronic. À acheter ailleurs.
+- **Fil 26 AWG** : seul le 22 AWG est dans le panier (rouge et noir pour l'alimentation) ; le 26 AWG pour les signaux est à ajouter si besoin.
 - **Batteries 18650** : pas d'expédition de batteries lithium seules par la poste, donc Accu-Run (La Réunion).
 
 **Ce que change ce panier sur le montage (voir [COMPATIBILITE.md](COMPATIBILITE.md)) :**
@@ -125,7 +129,7 @@ Même liste de pièces, prix du 12/11/2026. **AliExpress** : prix du panier (off
 | Module microSD (×1, si l'écran n'en a pas) | 1,01 (18,63) pour 3 | inclus dans l'écran | inclus dans l'écran | inclus dans l'écran |
 | Encodeur rotatif (×2) | 1,01 (5,78) pour 5 | 7,98 (avec molette) | 7,74 (avec molette) | 5,00 (sans molette) |
 | Boutons (×4) | 1,01 (5,62) pour 6, panneau 16 mm | 2,22 (10, tactiles 12 mm) | 2,15 (10, tactiles 12 mm) | 7,90 (25) |
-| Interrupteur marche/arrêt | — (écarté, 0,5 A) | 2,25 | — | 2,15 |
+| Interrupteur marche/arrêt | 8,16 (8,16) pour 10, 6 A | 2,25 | — | 2,15 |
 | Ruban LED 60/m, 1 m | 1,01 (11,90) | 7,35 | 23,18 (RGBW) | 19,60 (2 m) |
 | Décaleur de niveau (×2) | 1,01 (1,87) pour 10 | 1,68 | 1,69 | 4,80 |
 | Charge + 5 V | 1,26 (1,64) pour 2 IP5306 | 15,00 (6091 + U3V40F5) | 17,16 (PowerBoost, 1 A) | — |
@@ -139,10 +143,10 @@ Même liste de pièces, prix du 12/11/2026. **AliExpress** : prix du panier (off
 | Barrettes 2,54 mm | 1,13 (13,40) | — | — | — |
 | Patins | 1,01 (4,10) pour 24 | ≈ 16 (144 minimum) | ≈ 14 (144 minimum) | — |
 | Haut-parleur 4 Ω 5 W 66 mm | — (introuvable) | 7,63 | 8,81 (sur commande) | 6,80 (8 Ω) |
-| **Total des lignes ci-dessus** | **≈ 55 € (≈ 200 € sans offre nouveau client)**, port compris | **≈ 103 € HT pour l'électronique** | **≈ 131 €** | **≈ 96 € TTC, incomplet** |
+| **Total des lignes ci-dessus** | **≈ 80 € (≈ 240 € sans offre nouveau client)**, port compris, avec microSD, fil et interrupteur | **≈ 103 € HT pour l'électronique** | **≈ 131 €** | **≈ 96 € TTC, incomplet** |
 
 **Ce que les chiffres cachent :**
-- **AliExpress** n'est avantageux que si ton compte peut profiter de l'offre « nouveau client ». Sans elle, la même commande coûte environ 200 €. Il est aussi le seul à ne pas avoir de haut-parleur correct, ni d'interrupteur, et ses délais sont de 2 à 4 semaines (livraison estimée fin novembre à début décembre en France métropolitaine).
+- **AliExpress** n'est avantageux que si ton compte peut profiter de l'offre « nouveau client ». Sans elle, la même commande coûte environ 240 €. Il est aussi le seul à ne pas avoir de haut-parleur correct, et ses délais sont de 2 à 4 semaines (livraison estimée fin novembre à début décembre en France métropolitaine).
 - **DigiKey** couvre l'électronique avec des pièces de marque, traçables, en express. C'est la seule base qui prépare vraiment la certification CE.
 - **Mouser** revient à peu près au même prix, mais il n'a pas confirmé La Réunion.
 - **Gotronic** est le moins cher en apparence, mais il lui manque le haut-parleur 4 Ω, une charge de 2 A et le décaleur de niveau.
