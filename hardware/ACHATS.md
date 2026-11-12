@@ -67,6 +67,25 @@ Le Pololu est un **produit marketplace**, expédié par Pololu : des frais de po
 | Filament PETG blanc + transparent | Gotronic (24,40 € la bobine) ou boutique Bambu Lab | |
 | Capuchons pour boutons 12 mm (optionnel) | Mouser (Adafruit 1009, 5,12 €) ou impression 3D | |
 
+#### Panier AliExpress « Marque+ » (rempli le 12/11/2026)
+
+Panier invité (sans compte) dans Chrome, pays de livraison réglé sur la France métropolitaine : **la livraison à La Réunion et ses frais restent à vérifier** une fois connecté avec l'adresse 974. Tous les articles portent le badge Marque+.
+
+| Qté | Article | Vendeur | Prix affiché | Prix sans l'offre nouveau client |
+|---|---|---|---|---|
+| 50 | Inserts laiton M3 × L5 × OD5 | EDGAR GARY Store | 6,94 € | 6,94 € |
+| 55 | Vis M3 × 8 inox, tête cylindrique DIN912 | EN XIXIAN Store | 6,67 € | 6,67 € |
+| 55 | Vis M3 × 10 inox, tête cylindrique DIN912 | EN XIXIAN Store | 6,12 € | 6,12 € |
+| 10 paires | Câbles JST-PH 2.0 2 broches, 22 AWG, 15 cm, mâle-femelle | CHANZON | 1,01 € | 9,51 € |
+| 172 | Kit gaine thermorétractable 2:1, 6 couleurs | CHANZON | 1,00 € + 7,29 € de port | 11,50 € + 7,29 € |
+| 20 | Kit plaques à souder double face (2×8, 3×7, 4×6, 5×7 cm) | CHANZON | 2,87 € | 15,88 € |
+| 20 | Barrettes 40 broches 2,54 mm (10 mâles + 10 femelles) | CHANZON | 1,13 € | 13,40 € |
+| | | **Total** | **≈ 33 €** | **≈ 77 €** |
+
+- Les quatre articles CHANZON sont à un prix « nouveau client » : il ne vaut que pour un premier achat sur un compte neuf, et le panier ne les sélectionne pas par défaut (sous-total affiché : 19,73 € pour les 3 autres).
+- Aucun produit Marque+ pertinent trouvé pour : fil silicone 22/26 AWG, patins adhésifs, carte microSD de marque.
+
+
 ---
 
 ## Comparatif DigiKey / Mouser / Gotronic / Accu-Run
